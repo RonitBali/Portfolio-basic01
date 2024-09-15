@@ -20,19 +20,19 @@ const about = () => {
         <div className="about__content">
         <div className="about__cards">
           <article className='about__card'>
-            <BsAward />
+            <BsAward className='about__icon' />
            <h5>Experience</h5>
            <small>1+ Years</small>
           </article>
 
           <article className='about__card'>
-          <FaUserFriends className='about__card'/>
+          <FaUserFriends className='about__icon'/>
            <h5>CLients</h5>
            <small>5+ Worldwide</small>
           </article>
 
           <article className='about__card'>
-          <AiOutlineFundProjectionScreen className='about__card' />
+          <AiOutlineFundProjectionScreen className='about__icon' />
            <h5>Projects</h5>
            <small>5+ Completed</small>
           </article>
@@ -40,7 +40,7 @@ const about = () => {
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni hic aspernatur, adipisci deleniti mollitia neque repellendus distinctio beatae reiciendis voluptates numquam, amet nam vitae sapiente excepturi dignissimos assumenda non ut.
           Amet suscipit voluptatibus illum consectetur aliquid quisquam mollitia perferendis, autem explicabo ad delectus deleniti provident expedita dolore animi? Quo, nulla delectus quas consequatur a tenetur. Enim architecto quae libero repellendus?
-          Quam similique, mollitia quisquam officiis quasi quod, ipsa nesciunt sint nemo deserunt dignissimos voluptates aliquid deleniti omnis ab hic modi. Atque quaerat ea laboriosam? Nobis beatae corporis similique non fugiat?  
+         
         </p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>

@@ -8,14 +8,14 @@ import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from 'react';
 
 const Nav = () => {
-  const [activeNav, setActivenav] = useState('#');
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-     <a href="#"  onClick={() => setActivenav('#')} className={activeNav === '#' ? 'active' :''}><IoHomeOutline /></a>
-     <a href="#about" onClick={() => setActivenav('#about')} className={activeNav === '#about' ? 'active' :''}><FaRegUser /> </a>
-     <a href="#experience" onClick={() => setActivenav('experience')} className={activeNav === '#experience' ? 'active' :''}><LuBook/></a>
-     <a href="#services" onClick={() => setActivenav('#services')} className={activeNav === '#services' ? 'active' :''}><RiCustomerService2Line /></a>
-     <a href="#contact" onClick={() => setActivenav('#contact')} className={activeNav === '#contact' ? 'active' :''}><BiMessageSquareDetail /></a>
+     <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' :''}><IoHomeOutline /></a>
+     <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' :''}><FaRegUser /> </a>
+     <a href="#experience" onClick={() => setActiveNav('experience')} className={activeNav === '#experience' ? 'active' :''}><LuBook/></a>
+     <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' :''}><RiCustomerService2Line /></a>
+     <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' :''}><BiMessageSquareDetail /></a>
     </nav>
   )
 }
